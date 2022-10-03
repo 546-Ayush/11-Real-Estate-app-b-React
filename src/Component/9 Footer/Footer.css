@@ -1,0 +1,128 @@
+.footer {
+    display: grid;
+    place-items: center;
+    padding: 7rem 2rem;
+    background: #F5FBFF;
+}
+
+.footer_container {
+    max-width: 1250px;
+}
+
+.footer_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_column {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.column_content {
+    color: #000000;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.column_content p {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.column_content ul {
+    margin-top: 3rem !important;
+}
+
+.column_content .footer_link {
+    display: flex;
+}
+
+.column_content .footer_link li {
+    margin: 0 30px 0 0;
+    color: #919191;
+}
+
+.column_content .footer_link li a {
+    font-size: 15px;
+    font-weight: 400;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    background: transparent;
+    border-radius: 50%;
+    margin-right: 7px;
+    line-height: 42px !important;
+    border: 1px solid #E8E8E8;
+}
+
+.column_content .footer_link li a .arrow_icon {
+    font-size: 20px;
+    color: #919191;
+    color: #FD955D;
+}
+
+.column_content ul li {
+    padding-bottom: 10px;
+}
+
+.column_content ul li a {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.column_content ul li a span {
+    color: #FD955D;
+    padding-right: 5px;
+}
+
+.column_content ul li span {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.column_content ul {
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.number {
+    color: #FD955D;
+}
+
+.column_content ul .footer_icon {
+    display: table-cell;
+    vertical-align: top;
+    width: 40px;
+    font-size: 18px;
+    padding-top: 2px;
+    color: #FD955D;
+}
+
+.column_content ul .text {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.footer_2 {
+    padding: 2rem 0;
+    display: grid;
+    place-items: center;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        display: flex;
+        padding: 3rem 2rem;
+    }
+
+    .footer_row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_column {
+        padding-top: 2rem;
+    }
+}
